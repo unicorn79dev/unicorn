@@ -18,7 +18,7 @@ const AboutDetails = () => {
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
           Thanks for taking out time to reach out.<br />
-          I'm a dedicated Blockchain Developer with a mission to drive digital transformation through secure and efficient blockchain solutions.<br />
+          I am a dedicated Blockchain Developer with a mission to drive digital transformation through secure and efficient blockchain solutions.<br />
           As a talented freelancer, I bring 4+ years of expertise in blockchain development, specializing in DEXs, bot creation and building casino sites.<br /><br />
 
           
@@ -48,7 +48,7 @@ const AboutDetails = () => {
           <p className="font-light  text-xs sm:text-sm md:text-base m-5">
           <p className="text-xl md:text-2xl text-left w-full capitalize text-center">💡 Why Work With Me?</p><br />
           ✅ Expert in Blockchain Technologies: Proficient in Ethereum, Solana and Ton, I bring a deep understanding of blockchain protocols, consensus mechanisms, and cryptographic principles. I develop scalable, secure, and transparent solutions tailored to your specific requirements.<br />
-          ✅ Smart Contract Development: Crafting robust andgood error-free smart contracts is my forte. Whether you're launching an ICO, implementing a token system, or building a decentralized finance (DeFi) platform, I have the experience to deliver high-quality smart contracts.<br />
+          ✅ Smart Contract Development: Crafting robust andgood error-free smart contracts is my forte. Whether you are launching an ICO, implementing a token system, or building a decentralized finance (DeFi) platform, I have the experience to deliver high-quality smart contracts.<br />
           ✅ Security First Approach: Understanding the critical importance of security in blockchain development, I employ best practices to safeguard your applications against vulnerabilities and threats.<br /><br />
           </p>
         </ItemLayout>
@@ -64,8 +64,8 @@ const AboutDetails = () => {
               ✔ Crypto Collectible Platforms and Non-Fungible Tokens<br />
               ✔ Casino Sites<br /><br />
 
-              👥 Let's Revolutionize Your Project:<br />
-              If you're seeking a seasoned blockchain developer to bring your vision to life, let's collaborate! I am committed to delivering blockchain solutions that elevate your project to new heights.
+              👥 Let&apos;s Revolutionize Your Project:<br />
+              If you&apos;re seeking a seasoned blockchain developer to bring your vision to life, let&apos;s collaborate! I am committed to delivering blockchain solutions that elevate your project to new heights.
             </p>
         </ItemLayout>
 
@@ -84,7 +84,7 @@ const AboutDetails = () => {
             Bachelor of Science in Computer Science <br />
             WASEDA UNIVERSITY | Sep 2016 – May 2019 <br />
             •	Gained a strong foundation in computer science principles and software development.<br />
-            •	Participated in the university's tech club, contributing to several open-source projects.<br />
+            •	Participated in the university&apos;s tech club, contributing to several open-source projects.<br />
             •	Relevant coursework: Data Structures, Operating Systems, Software Engineering, Computer Networks.<br />
 
             </p>
