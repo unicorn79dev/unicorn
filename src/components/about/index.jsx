@@ -1,6 +1,8 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
+import cert from '../../../public/certificate.jpg';
+import Image from "next/image";
 
 const AboutDetails = () => {
   return (
@@ -12,18 +14,14 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+          Blockchain Developer | DEX | Crypto Bots | Casino
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          Thanks for taking out time to reach out.<br />
+          I'm a dedicated Blockchain Developer with a mission to drive digital transformation through secure and efficient blockchain solutions.<br />
+          As a talented freelancer, I bring 4+ years of expertise in blockchain development, specializing in DEXs, bot creation and building casino sites.<br /><br />
+
+          
           </p>
         </ItemLayout>
 
@@ -45,23 +43,30 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
+          className={"col-span-full sm:col-span-6 md:col-span-6 !p-0"}
         >
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
+          <p className="font-light  text-xs sm:text-sm md:text-base m-5">
+          <p className="text-xl md:text-2xl text-left w-full capitalize text-center">💡 Why Work With Me?</p><br />
+          ✅ Expert in Blockchain Technologies: Proficient in Ethereum, Solana and Ton, I bring a deep understanding of blockchain protocols, consensus mechanisms, and cryptographic principles. I develop scalable, secure, and transparent solutions tailored to your specific requirements.<br />
+          ✅ Smart Contract Development: Crafting robust andgood error-free smart contracts is my forte. Whether you're launching an ICO, implementing a token system, or building a decentralized finance (DeFi) platform, I have the experience to deliver high-quality smart contracts.<br />
+          ✅ Security First Approach: Understanding the critical importance of security in blockchain development, I employ best practices to safeguard your applications against vulnerabilities and threats.<br /><br />
+          </p>
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
+        <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-6 !p-0"}>
+          <p className="font-light  text-xs sm:text-sm md:text-base m-5">
+            <p className="text-xl md:text-2xl text-left w-full capitalize text-center">🏆 Services I offer:</p><br />
+              ✔ ICO, IDO, STO, Presale<br />
+              ✔ Decentralized / Centralized Exchange<br />
+              ✔ Automated Trading Bots / Arbitrage Bots / Sniper Bots<br />
+              ✔ Yield Farming Protocols & Liquidity Mining Protocols<br />
+              ✔ P2P/Pool Lending and Borrowing<br />
+              ✔ Crypto Collectible Platforms and Non-Fungible Tokens<br />
+              ✔ Casino Sites<br /><br />
+
+              👥 Let's Revolutionize Your Project:<br />
+              If you're seeking a seasoned blockchain developer to bring your vision to life, let's collaborate! I am committed to delivering blockchain solutions that elevate your project to new heights.
+            </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
@@ -74,25 +79,29 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
+        <p className="font-light  text-xs sm:text-sm md:text-base m-5">
+            <p className="text-xl md:text-2xl text-left w-full capitalize text-center">👩‍💻 Education:</p><br />
+            Bachelor of Science in Computer Science <br />
+            WASEDA UNIVERSITY | Sep 2016 – May 2019 <br />
+            •	Gained a strong foundation in computer science principles and software development.<br />
+            •	Participated in the university's tech club, contributing to several open-source projects.<br />
+            •	Relevant coursework: Data Structures, Operating Systems, Software Engineering, Computer Networks.<br />
+
+            </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
+            href="https://github.com/dynaput247/Nextjs-contentlayer-blog"
             target="_blank"
             className="w-full"
           >
-            <img
-              className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
-              loading="lazy"
+            <Image
+              src={cert}
+              priority
+              sizes="100vw"
+              alt="Next.js Portfolio website's about page background image"
+              className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-80"
             />
           </Link>
         </ItemLayout>
